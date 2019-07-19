@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "node build.js",
+    "start": "npm run dev",
     "deploy": "gh-pages -d dist"
   },
   "keywords": [],
@@ -14,3 +16,5 @@
     "gh-pages": "^2.0.1"
   }
 }
+
+
